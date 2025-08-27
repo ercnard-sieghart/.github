@@ -51,43 +51,6 @@ Exemplo:
 feat: adiciona endpoint de consulta de extrato bancário
 fix: corrige erro de autenticação no login
 
-🛠️ Back-end (ICS WEB API)
-
-Dependendo da stack escolhida (Node.js, Go, Java Spring Boot), manteremos as boas práticas:
-
-Estrutura Esperada
-
-/src → Código-fonte
-
-/tests → Testes automatizados
-
-/docs → Documentação da API (Swagger/OpenAPI)
-
-/scripts → Scripts auxiliares (deploy, migrations, seeds, etc.)
-
-Convenções
-
-Seguir padrões de Clean Code e SOLID.
-
-Cada endpoint/documentação deve estar descrito no Swagger (ou Postman Collection).
-
-Configurações sensíveis (senhas, tokens, chaves) devem ser armazenadas em .env (nunca commitado).
-
-Rodando o projeto (Node.js exemplo)
-yarn install
-yarn dev
-
-Testes
-yarn test
-
-⚙️ Integração e Deploy
-
-CI/CD via GitHub Actions (ou outro pipeline configurado).
-
-Commits na main disparam build para produção.
-
-Commits na homolog disparam build para ambiente de homologação.
-
 📚 Boas Práticas Gerais
 
 Sempre abrir Pull Requests (PRs) para mergear código.
