@@ -1,5 +1,3 @@
-Organização de Projetos
-
 Projeto principal - Solução WEB para integração com o ERP, composta por Front-end e Back-end, versionados em repositórios separados.
 
 📌 Estrutura dos Repositórios
@@ -10,6 +8,7 @@ back-end-ics-web → API de integração, serviços e regras de negócio.
 
 Cada repositório possui seu próprio README com instruções específicas de instalação e execução.
 
+
 🚀 Branches
 
 main → Produção
@@ -17,6 +16,7 @@ main → Produção
 homolog → Homologação
 
 desenv → Desenvolvimento
+
 
 🔹 Regras:
 
@@ -29,6 +29,7 @@ feat/nome-funcionalidade
 fix/corrige-alguma-coisa
 
 refactor/ajuste-estrutura
+
 
 📝 Padrão de Commits
 
@@ -50,6 +51,7 @@ Exemplo:
 
 feat: adiciona endpoint de consulta de extrato bancário
 fix: corrige erro de autenticação no login
+
 
 📚 Boas Práticas Gerais
 
