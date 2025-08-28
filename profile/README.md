@@ -1,8 +1,5 @@
-# 🌐 ICS WEB  
 
 **Solução WEB para integração com o ERP**, composta por **Front-end** e **Back-end**, versionados em repositórios separados.  
-
----
 
 ## 📌 Estrutura dos Repositórios  
 
